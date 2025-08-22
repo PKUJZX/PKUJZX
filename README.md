@@ -25,6 +25,15 @@ Here are some of the projects I'm proud of.
 - **Description:** We proposed a novel method combining data-driven and physics-driven approaches using diffusion models to tackle key challenges in electron microscopy, such as denoising, defocus removal, and 3D super-resolution.
 - **Status:** Currently under review at **Nature Communications**.
 
+#### 💻 Open Source Project
+- **[CV Paper Implementations for Learners](https://github.com/PKUJZX/CV_Milestones)**
+- **Goal:** To bridge the gap between reading a CV paper and understanding its implementation.
+- **Features:**
+  - Concise paper summaries.
+  - Refined, minimal core code with detailed explanations.
+  - Step-by-step running guides.
+- **Motivation:** To demystify the complex official codebases and make state-of-the-art research more accessible to learners.
+
 #### 📚 Educational Websites & Tutorials
 I believe in the power of clear, first-principle explanations. I have created three websites to share my understanding of fundamental subjects:
 
@@ -34,16 +43,6 @@ I believe in the power of clear, first-principle explanations. I have created th
   - **🔗 Link:** https://pkujzx.github.io/3D_Vision/
 - **Introduction to Generative Models**: A systematic tutorial on Flow Matching and Diffusion Models. This project starts from the most cutting-edge and unified theoretical frameworks to help learners efficiently grasp the core ideas of generative models. 
   - **🔗 Link:** [https://pkujzx.github.io/Flow-Diffusion/](https://pkujzx.github.io/Flow-Diffusion/)
-
-
-#### 💻 Open Source Project
-- **[CV Paper Implementations for Learners](https://github.com/PKUJZX/CV_Milestones)**
-- **Goal:** To bridge the gap between reading a CV paper and understanding its implementation.
-- **Features:**
-  - Concise paper summaries.
-  - Refined, minimal core code with detailed explanations.
-  - Step-by-step running guides.
-- **Motivation:** To demystify the complex official codebases and make state-of-the-art research more accessible to learners.
 
 ---
 
@@ -58,4 +57,5 @@ I believe in the power of clear, first-principle explanations. I have created th
 ### 📫 Get In Touch
 
 - **Email:** [jzx417889065@stu.pku.edu.cn](mailto:jzx417889065@stu.pku.edu.cn)
+
 - Feel free to reach out if you are interested in my work or potential collaborations!
