@@ -1,61 +1,31 @@
-# Hi there, I'm Zixuan Jiang (蒋子轩) 👋
+### Hi, I'm Zixuan 👋
 
-<a href="https://www.pku.edu.cn/"><img src="https://img.shields.io/badge/Peking%20University-PKU-blue?style=flat-square&logo=pku" alt="Peking University"></a>
+I like taking apart big, intimidating models until I understand exactly why they work — then putting the smallest runnable version back together so other people can too.
 
-<a href="mailto:jzx417889065@stu.pku.edu.cn"><img src="https://img.shields.io/badge/Email-Contact%20Me-red?style=flat-square&logo=gmail" alt="Email"></a>
----
-
-### 👨‍💻 About Me
-
-I am a Biomedical Engineering undergraduate student at Peking University with a strong passion for Artificial Intelligence, especially in **Generative Models** and **3D Vision**. My goal is to bridge the gap between cutting-edge computer vision technology and its application in biomedical imaging to solve real-world challenges.
-
-- 🔬 Currently, I am a research assistant at the **Computational Scientific Imaging Lab at PKU**, advised by Prof. He Sun, where my work focuses on AI-driven electron microscopy.
-- 🧠 I am driven by the pursuit of knowledge and enjoy building intuitive learning materials to help others understand complex concepts.
-- 🔭 I am actively seeking opportunities for research internships and collaborations in related fields.
+These days that means **embodied AI**: vision-language-action policies, diffusion / flow matching, and 3D vision. I'm a direct-PhD student at Peking University, but most of what I actually *do* lives in the repos below.
 
 ---
 
-### ✨ Highlights & Projects
+**A recurring theme in my work:** complex papers shouldn't stay locked inside their original codebases.
 
-Here are some of the projects I'm proud of.
+- 🤖 **[pi-zero-minimal](https://github.com/PKUJZX/pi-zero-minimal)** — Physical Intelligence's π0, stripped down to a minimal runnable VLA. No engineering scaffolding, just the core idea you can read in one sitting.
+- 🧩 **[CV_Milestones](https://github.com/PKUJZX/CV_Milestones)** — clean-room re-implementations of landmark papers (DiT, 3DGS, …) — the version I wish existed when I was first reading them.
 
-#### 📄 Research Publication
-- **Title:** *EM Generalist: A physics-driven diffusion foundation model for electron microscopy*
-- **Contribution:** Co-first author (3rd position).
-- **Description:** We proposed a novel method combining data-driven and physics-driven approaches using diffusion models to tackle key challenges in electron microscopy, such as denoising, defocus removal, and 3D super-resolution.
-- **Status:** Currently under review at **Nature Communications**.
+And when re-implementing isn't enough, I write things down:
 
-#### 💻 Open Source Project
-- **[CV Paper Implementations for Learners](https://github.com/PKUJZX/CV_Milestones)**
-- **Goal:** To bridge the gap between reading a CV paper and understanding its implementation.
-- **Features:**
-  - Concise paper summaries.
-  - Refined, minimal core code with detailed explanations.
-  - Step-by-step running guides.
-- **Motivation:** To demystify the complex official codebases and make state-of-the-art research more accessible to learners.
-
-#### 📚 Educational Websites & Tutorials
-I believe in the power of clear, first-principle explanations. I have created three websites to share my understanding of fundamental subjects:
-
-- **Intuitive University Mathematics:** A guide to intuitively understanding core concepts in Multivariable Calculus, Linear Algebra, Probability Theory, and Functional Analysis.
-  - **🔗 Link:** https://pkujzx.github.io/Math_Foundations/
-- **Foundations of 3D Computer Vision:** A tutorial series covering Camera Models & Calibration, Single View Metrology, Epipolar Geometry, and Structure from Motion (SfM).
-  - **🔗 Link:** https://pkujzx.github.io/3D_Vision/
-- **Introduction to Generative Models**: A systematic tutorial on Flow Matching and Diffusion Models. This project starts from the most cutting-edge and unified theoretical frameworks to help learners efficiently grasp the core ideas of generative models. 
-  - **🔗 Link:** [https://pkujzx.github.io/Flow-Diffusion/](https://pkujzx.github.io/Flow-Diffusion/)
+- 🌊 **[Flow-Diffusion](https://pkujzx.github.io/Flow-Diffusion/)** — diffusion, score matching, and SDEs, all derived from one flow-matching lens. The unified picture I wanted but couldn't find.
+- 📐 **[3D_Vision](https://pkujzx.github.io/3D_Vision/)** — camera models → epipolar geometry → SfM, built from the ground up.
 
 ---
 
-### 🛠️ Skills & Technologies
+**On the research side**, I've spent time on:
 
-- **Languages:** Python
-- **Frameworks:** PyTorch
-- **Fields of Interest:** Computer Vision, Generative Models, Deep Learning, Computational Imaging
+- a diffusion **foundation model** unifying five image-restoration tasks — and rebuilding its sampler with flow matching for a ~30× speedup *(co-first author, Nature Communications)*
+- using a **VLM as a reward signal** to make few-step text-to-image models actually follow instructions, trained end-to-end and differentiable
+- **feed-forward 3D reconstruction** with Transformers, self-supervised where ground truth doesn't exist
 
 ---
 
-### 📫 Get In Touch
+I'm always up for a good conversation about generative models, embodied agents, or why your sampler is slow.
 
-- **Email:** [jzx417889065@stu.pku.edu.cn](mailto:jzx417889065@stu.pku.edu.cn)
-
-- Feel free to reach out if you are interested in my work or potential collaborations!
+📫 jzx417889065@stu.pku.edu.cn
